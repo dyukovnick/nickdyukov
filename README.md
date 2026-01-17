@@ -10,4 +10,5 @@ This is my first website project after learning HTML and CSS for one month.
 Open index.html in a browser to see the website.
 
 ## Author
-Nikita Dyukov.
+- Author: Nikita Dyukov.
+- GitHub: [dyukovnick](https://github.com/dyukovnick).
