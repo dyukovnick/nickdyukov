@@ -20,26 +20,26 @@ body {
 }
 
 body.language {
-  background: linear-gradient(188deg, #0c0c0c 4%, #800505 40%, #0c0c0c 96%);
+  background: linear-gradient(188deg, #0c0c0c 4%, #690404 40%, #0c0c0c 96%);
 }
 
 body.en-page,
 body.ru-page {
-  background: linear-gradient(172deg, #0c0c0c 4%, #1e0bc4 40%, #0c0c0c 96%);
+  background: linear-gradient(172deg, #0c0c0c 4%, #160892 40%, #0c0c0c 96%);
 }
 
 .language main {
-  background-color: #f75959;
+  background-color: #e94343;
   margin-top: 212px;
-  width: 492px;
-  padding: 12px;
+  width: 512px;
+  padding: 16px;
 }
 
 .en-page header,
 .ru-page header {
   background-color: #5070f0;
-  width: 624px;
-  padding: 12px;
+  width: 644px;
+  padding: 16px;
   margin-top: 24px;
 }
 
@@ -47,14 +47,14 @@ body.ru-page {
 .ru-page main {
   background-color: #5070f0;
   width: 716px;
-  padding: 12px;
+  padding: 16px;
 }
 
 .en-page section,
 .ru-page section {
   background-color: #5070f0;
   width: 396px;
-  padding: 12px;
+  padding: 16px;
 }
 
 .en-page footer,
@@ -70,8 +70,8 @@ body.ru-page {
 .ru-page header,
 .ru-page main,
 .ru-page section {
-  border-radius: 92px;
-  box-shadow: 0 0 20px rgba(201, 193, 193, 0.8);
+  border-radius: 96px;
+  box-shadow: 0 0 16px rgba(198, 196, 207, 0.8);
 }
 
 a {
@@ -120,18 +120,42 @@ footer p {
   }
 }
 
-@media (max-width: 764px) {
-  .language main,
+@media (max-width: 1024px) {
+  .language main
+   {
+    max-width: 524px;
+    width: 80%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .en-page header,
+  .ru-page header
+   {
+    max-width: 644px;
+    width: 84%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .en-page main,
+  .ru-page main
+   {
+    max-width: 716px;
+    width: 84%;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .en-page section,
-  .ru-page header,
-  .ru-page main,
   .ru-page section
    {
-    max-width: 640px;
-    width: 92%;
-    padding: 20px;
+    max-width: 396px;
+    width: 84%;
+    padding: 16px;
   }
 }
 
