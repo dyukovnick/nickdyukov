@@ -19,7 +19,7 @@ body {
   padding: 0;
 }
 
-body.language {
+body.language-choice {
   background: linear-gradient(188deg, #0c0c0c 4%, #690404 40%, #0c0c0c 96%);
 }
 
@@ -28,7 +28,7 @@ body.ru-page {
   background: linear-gradient(172deg, #0c0c0c 4%, #160892 40%, #0c0c0c 96%);
 }
 
-.language main {
+.language-choice main {
   background-color: #e94343;
   margin-top: 212px;
   width: 512px;
@@ -63,7 +63,7 @@ body.ru-page {
   text-align: center;
 }
 
-.language main,
+.language-choice main,
 .en-page header,
 .en-page main,
 .en-page section,
@@ -121,7 +121,7 @@ footer p {
 }
 
 @media (max-width: 1024px) {
-  .language main
+  .language-choice main
    {
     max-width: 524px;
     width: 80%;
