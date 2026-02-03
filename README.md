@@ -15,8 +15,8 @@ Open index.html in a browser to see the website.
 
 ## Screenshots
 
-![Main page](main-page.png)
-![English version](en-page.png)
+![Main page](screenshots/main-page.png)
+![English version](screenshots/en-page.png)
 
 ## Author
 - Author: Nikita Dyukov.
