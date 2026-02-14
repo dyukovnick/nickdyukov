@@ -1,0 +1,79 @@
+/* ===== Components ===== */
+
+/* ===== Language switch buttons ===== */
+.lang-switch {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.lang-switch button {
+  width: 104px;
+  height: 40px;
+  background: linear-gradient(30deg, #aa2d2d, #e65a5a, #aa2d2d);
+  color: #090909;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgba(12, 12, 12, 0.8);
+  border: 2px solid rgba(156, 156, 156, 0.8);
+  transition: color 0.3s ease, transform 0.2s;
+}
+
+.lang-switch button:hover { background: linear-gradient(120deg, #a72828, #d64d4d, #a72828); }
+
+/* ===== Menu ===== */
+button.MenuBtn {
+  background: linear-gradient(160deg, #2e2ec2d7, #4848add7, #2e2ec2d7);
+  position: fixed;
+  left: 4px;
+  top: 4px;
+  color: #090909;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 44px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid rgba(156, 156, 156, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(156, 156, 156, 0.8);
+}
+
+nav.menu {
+  background: #060650d7;
+  position: fixed;
+  right: -420px;
+  top: 0;
+  width: 400px;
+  min-height: 100vh;
+  padding: 24px 28px;
+  transition: right 0.6s ease;
+  border: 2px solid rgba(156, 156, 156, 0.6);
+  border-radius: 24px 0 0 24px;
+  box-shadow: 0 0 16px rgba(156, 156, 156, 0.4);
+}
+
+nav.menu.active { right: 0px; }
+
+nav.menu button {
+  background: linear-gradient(160deg, #2e2ec2, #4f4fb4, #2e2ec2);
+  width: 100%;
+  height: 52px;
+  color: #090909;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  border: 2px solid rgba(156, 156, 156, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 0 16px rgba(156, 156, 156, 0.4);
+}
+
+/* ===== Responsive adjustmenst ===== */
+@media (max-width: 1024px) { nav.menu {max-width: 400px; width: 64%;} }
