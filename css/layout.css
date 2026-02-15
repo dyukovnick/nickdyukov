@@ -1,0 +1,42 @@
+/* ===== Layout styles ===== */
+
+/* ===== Language choice page ===== */
+body.language-choice { background: linear-gradient(200deg, #090909 0%, #4d0505 16%, #640303 44%, #4d0505 84%, #090909 100%); }
+
+/* ===== Pages ===== */
+body.page { background: linear-gradient(160deg, #090909 0%, #03033b 16%, #080863 40%, #03033b 84%, #090909 100%); gap: 24px; }
+
+/* ===== Global CSS variables ===== */
+:root {
+  /* ===== Main backgrounds ===== */
+  --color-background-language-choice: linear-gradient(200deg, #8b1717, #ca4343, #8b1717);
+  --color-background-primary: linear-gradient(160deg, #2e2ec2, #4f4fb4, #2e2ec2);
+}
+
+/* ===== Language-choice ===== */
+.language-choice main, 
+.language-choice main { background: var(--color-background-language-choice); }
+.language-choice main { width: 492px; margin-top: 228px; }
+
+/* ===== Pages ===== */
+.page header, .page main, .page section { background: var(--color-background-primary); }
+.page header { width: 616px; margin-top: 16px; }
+.page main { width: 884px; }
+.page section { width: 412px; }
+
+/* ===== Box model styles ===== */
+.language-choice main,
+.page header, .page main, .page section {
+  border-radius: 72px;
+  box-shadow: 0 0 16px rgba(180, 180, 180, 0.6);
+  border: 2px solid rgba(156, 156, 156, 0.6);
+  padding: 16px;
+}
+
+/* ===== Responsive adjustmenst ===== */
+@media (max-width: 1024px) {
+  .language-choice main { max-width: 492px; width: 92%; }
+  .page header {max-width: 616px; width: 88%; }
+  .page main { max-width: 884px; width: 92%; }
+  .page section {max-width: 412px; width: 88%; }
+}

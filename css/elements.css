@@ -1,0 +1,28 @@
+/* ===== Element styles (text, links) ===== */
+p {
+  color: #090909;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.32;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.4s ease, transform 0.3s ease;
+}
+
+h1 { line-height: 1.08; }
+
+.bold-small { font-size: 1rem; font-weight: 400; }
+
+.big { font-size: 1.5rem; font-weight: 700; line-height: 0.68; }
+
+/* Footer */
+.page footer p { color: #94a5e9; line-height: 0.68; }
+
+.page a { color: #0c045a; }
+.page a:hover { color: #090909; }
+
+a.red { color: #630404; }
+a.red:hover { color: #090909; }
