@@ -9,23 +9,25 @@
     <title>Никита Дюков</title>
 
     <!-- ===== CSS ===== -->
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="/nickdyukov/css/main.css" />
 
     <!-- ===== Favicons ===== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png" />
-    <link rel="shortcut icon" href="../assets/icons/favicon.ico" />
-    <link rel="manifest" href="../assets/icons/site.webmanifest" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/nickdyukov/assets/icons/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/nickdyukov/assets/icons/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/nickdyukov/assets/icons/favicons/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/nickdyukov/assets/icons/favicons/favicon.ico" />
+    <link rel="manifest" href="/nickdyukov/assets/icons/favicons/site.webmanifest" />
     <meta name="apple-mobile-web-app-title" content="NickDyukov" />
   </head>
 
   <body class="page ru-page">
 
     <!-- ===== Menu ===== -->
-    <button class="MenuBtn" aria-label="Меню">☰</button>
+    <button class="MenuBtn" aria-label="Меню">
+      <img src="/nickdyukov/assets/images/menu.svg" alt="">
+    </button>
 
-    <nav class="menu" role="navigation">
+    <nav class="menu">
       <button class="MainPage" aria-label="Перейти на главную страницу">Main page</button>
       <button class="EnPage" aria-label="Перейти на английскую страницу">English page</button>
     </nav>
@@ -34,12 +36,18 @@
     <header>
       <h1>Никита Дюков</h1>
       <p>
-        Учу English, <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">HTML</a>, 
-        <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank">CSS</a> и 
-        <a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a>.
+        Учу English, <a href="https://ru.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer" aria-label="HTML">
+        <img src="/nickdyukov/assets/images/html.png" alt="">
+        HTML</a>, 
+        <a href="https://ru.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer" aria-label="CSS">
+        <img src="/nickdyukov/assets/images/css.png" alt="">
+        CSS</a> и 
+        <a href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript">
+        <img src="/nickdyukov/assets/images/js.png" alt="">
+        JavaScript</a>.
       </p>
       <p>Языки: Русский (родной), English B1, Spanish A1.</p>
-      <p>Поклонник чистого питания, спорта и ледянных ванн.</p>
+      <p>Поклонник чистого питания, спорта и ледяных ванн.</p>
       <p class="ru-age">Возраст: 14</p>
     </header>
 
@@ -48,10 +56,10 @@
       <p class="big">О себе:</p>
       <p>
         Родился 6 мая 2011 года в России, в городе 
-        <a href="https://ru.wikipedia.org/wiki/%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener noreferrer">Екатеринбург</a>.
+        <a href="https://ru.wikipedia.org/wiki/%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3" target="_blank" rel="noopener noreferrer" aria-label="город Екатеринбург">Екатеринбург</a>.
       </p>
       <p>
-        Я избегаю красного мяса, алкоголя, никотина и других наркотиков, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0" target="_blank" rel="noopener noreferrer">глютена</a>, сахара, фруктов, растительных масел и кофеина.
+        Я избегаю красного мяса, алкоголя, никотина и других наркотиков, <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B5%D0%B9%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0" target="_blank" rel="noopener noreferrer" aria-label="глютен">глютена</a>, сахара, фруктов, растительных масел и кофеина.
         Я придерживаюсь низкоуглеводной диеты, обычно потребляя не более 30 граммов чистых углеводов в день и предпочитаю есть два раза в день в течение 6-часового окна (18/6).
       </p>
       <p>Главное в людях: Честность, Смелость, Независимость, Креативность.</p>
@@ -60,45 +68,63 @@
 
     <!-- ===== Contact & Social ===== -->
     <section>
-      <p class="big">Способы Связи:</p>
+      <p class="big">Контакты:</p>
       <p>
-        <a href="https://mail.google.com/mail/?view=cm&to=dyukovnick@gmail.com" target="_blank" rel="noopener noreferrer">Gmail</a>: dyukovnick@gmail.com
+        <a href="https://mail.google.com/mail/?view=cm&to=dyukovnick@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Gmail">
+        <img src="/nickdyukov/assets/icons/social/gmail-logo.png" alt="">
+        Gmail</a>: dyukovnick@gmail.com
       </p>
       <p>
-        <a href="https://t.me/NickDyukov" target="_blank" rel="noopener noreferrer">Telegram</a>: @NickDyukov
+        <a href="https://t.me/NickDyukov" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+        <img src="/nickdyukov/assets/icons/social/telegram-logo.png" alt="">
+        Telegram</a>: @NickDyukov
       </p>
-      <p class="big">Социальные Сети:</p>
+      <p class="big">Социальные сети:</p>
       <p>
-        <a href="https://t.me/Nick_Dyukov" target="_blank" rel="noopener noreferrer">Telegram канал</a>: @Nick_Dyukov
-      </p>
-      <p>
-        <a href="https://youtube.com/@nickdyukov" target="_blank" rel="noopener noreferrer">YouTube</a>: @NickDyukov
-      </p>
-      <p>
-        <a href="https://www.duolingo.com/profile/NickDyukov" target="_blank" rel="noopener noreferrer">Duolingo</a>: NickDyukov
+        <a href="https://t.me/Nick_Dyukov" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал">
+        <img src="/nickdyukov/assets/icons/social/telegram-logo.png" alt="">
+        Telegram канал</a>: @Nick_Dyukov
       </p>
       <p>
-        <a href="https://www.instagram.com/nickdyukov" target="_blank" rel="noopener noreferrer">Instagram</a>: nickdyukov
+        <a href="https://youtube.com/@nickdyukov" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <img src="/nickdyukov/assets/icons/social/youtube-logo.png" alt="">
+        YouTube</a>: @NickDyukov
       </p>
       <p>
-        <a href="https://github.com/dyukovnick" target="_blank" rel="noopener noreferrer">GitHub</a>: dyukovnick
+        <a href="https://www.duolingo.com/profile/NickDyukov" target="_blank" rel="noopener noreferrer" aria-label="Duolingo">
+        <img src="/nickdyukov/assets/icons/social/duolingo-logo.png" alt="">
+        Duolingo</a>: NickDyukov
       </p>
       <p>
-        <a href="https://steamcommunity.com/id/nickdyukov/" target="_blank" rel="noopener noreferrer">Steam</a>: 1253476450
+        <a href="https://www.instagram.com/nickdyukov" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <img src="/nickdyukov/assets/icons/social/instagram-logo.png" alt="">
+        Instagram</a>: nickdyukov
       </p>
       <p>
-        <a href="https://x.com/nickdyukov?s=21" target="_blank" rel="noopener noreferrer">X</a>: @NickDyukov
+        <a href="https://github.com/dyukovnick" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <img src="/nickdyukov/assets/icons/social/github-logo.png" alt="">
+        GitHub</a>: dyukovnick
+      </p>
+      <p>
+        <a href="https://steamcommunity.com/id/nickdyukov/" target="_blank" rel="noopener noreferrer" aria-label="Steam">
+        <img src="/nickdyukov/assets/icons/social/steam-logo.png" alt="">
+        Steam</a>: 1253476450
+      </p>
+      <p>
+        <a href="https://x.com/nickdyukov?s=21" target="_blank" rel="noopener noreferrer" aria-label="X">
+        <img src="/nickdyukov/assets/icons/social/x-logo.png" alt="">
+        X</a>: @NickDyukov
       </p>
     </section>
 
     <!-- ===== Footer ===== -->
     <footer>
       <p class="bold-small">© 2026 Nikita Dyukov. Все права защищены.</p>
-      <p class="bold-small">Последнее обновление: 14 февраля, 2026.</p>
+      <p class="bold-small">Последнее обновление: 16 февраля, 2026.</p>
     </footer>
 
     <!-- ===== JS ===== -->
-    <script src="../js/age.js"></script>
-    <script src="../js/menu.js"></script>
+    <script src="/nickdyukov/js/age.js"></script>
+    <script src="/nickdyukov/js/menu.js"></script>
   </body>
 </html>
