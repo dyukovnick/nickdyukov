@@ -26,3 +26,13 @@ h1 { line-height: 1.08; }
 
 a.red { color: #630404; }
 a.red:hover { color: #090909; }
+
+/* ===== Social media icons ===== */
+.page header img,
+.page section img {
+  vertical-align: -7px;
+  width: 28px;
+  height: 28px;
+}
+
+.page header img { margin-right: -5px; }
