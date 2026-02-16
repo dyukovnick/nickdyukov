@@ -15,18 +15,18 @@ const RuPage = document.querySelector(".RuPage");
 
 if (MainPage) {
   MainPage.addEventListener("click", () => {
-    window.location.href = "../index.html";
+    window.location.href = "/nickdyukov/index.html";
   });
 }
 
 if (EnPage) {
   EnPage.addEventListener("click", () => {
-    window.location.href = "../pages/en.html";
+    window.location.href = "/nickdyukov/pages/en.html";
   });
 }
 
 if (RuPage) {
   RuPage.addEventListener("click", () => {
-    window.location.href = "../pages/ru.html";
+    window.location.href = "/nickdyukov/pages/ru.html";
   });
 }

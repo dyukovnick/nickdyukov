@@ -4,12 +4,12 @@ const RuBtn = document.querySelector(".RuBtn");
 
 if (EnBtn) {
   EnBtn.addEventListener("click", () => {
-    window.location.href = "pages/en.html";
+    window.location.href = "/nickdyukov/pages/en.html";
   });
 }
 
 if (RuBtn) {
   RuBtn.addEventListener("click", () => {
-    window.location.href = "pages/ru.html";
+    window.location.href = "/nickdyukov/pages/ru.html";
   });
 }
